@@ -1,0 +1,6 @@
+#.env 파일명 변경
+RSS_URLS=https://www.korea.kr/rss/policy.xml,https://www.korea.kr/rss/insight.xml,https://blog.google/technology/ai/rss/,https://openai.com/news/rss.xml
+OPENAI_API_KEY=
+UPSTAGE_API_KEY=
+TAVILY_API_KEY=
+HUGGINGFACEHUB_API_TOKEN=
