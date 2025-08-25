@@ -1,0 +1,28 @@
+# Example configuration for AI_NEWS_AGENT
+# Copy this file to config/local.yaml (or any name) and edit values.
+
+# Embeddings / Models
+embedding_model: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+llm_model: "gpt-4o-mini"
+
+# Vector store files
+faiss_index_path: "data/news_faiss_cos.index"
+faiss_meta_path: "data/news_faiss_meta.json"
+
+# Chunking
+chunk_size: 512
+chunk_overlap: 50
+topk: 5
+
+# Date filter (optional)
+start_date: null
+end_date: null
+
+# User agent for RSS fetch
+user_agent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+
+NEWS_OUT_DIR: data
+NEWS_CSV_PATH: data/ai_news.csv
+NEWS_INPUT_PATH: data/ai_news.jsonl
+
+

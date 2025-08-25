@@ -1,0 +1,14 @@
+embedding_model: "intfloat/multilingual-e5-large-instruct"
+llm_model: "gpt-4o-mini"
+rss_urls: "https://www.korea.kr/rss/policy.xml,https://www.korea.kr/rss/insight.xml,https://blog.google/technology/ai/rss/,https://openai.com/news/rss.xml"
+faiss_index_path: "data/news_faiss_cos.index"
+faiss_meta_path: "data/news_faiss_meta.json"
+chunk_size: 768
+chunk_overlap: 128
+start_date: null
+end_date: null
+user_agent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+NEWS_OUT_DIR: data
+NEWS_CSV_PATH: data/ai_news.csv
+NEWS_INPUT_PATH: data/ai_news.jsonl
+
